@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wenzi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="圣女装"
+        android:gravity="center_vertical"
+        android:background="#ddd"
+        android:layout_marginLeft="15dp"/>
+
+    <com.example.fanyishuo.jingdongdome.view.IView.MyGrideView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:numColumns="3"></com.example.fanyishuo.jingdongdome.view.IView.MyGrideView>
+</LinearLayout>
